@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>terabot_moveit_bringup</name>
+  <version>1.0.0</version>
+  <description>The terabot_moveit_bringup package</description>
+<author email="rnavarro@robotnik.es">Román Navarro</author>
+  <maintainer email="rnavarro@robotnik.es">Román Navarro</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>robotnik_trajectory_control</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+   
+  </export>
+</package>

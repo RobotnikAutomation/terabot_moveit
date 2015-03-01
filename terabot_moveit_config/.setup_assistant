@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: terabot_description
+    relative_path: urdf/terabot_standalone.urdf.xacro
+  SRDF:
+    relative_path: config/terabot_arm.srdf
+  CONFIG:
+    generated_timestamp: 1424778659

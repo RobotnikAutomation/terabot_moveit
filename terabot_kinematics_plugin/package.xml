@@ -1,0 +1,29 @@
+<package>
+
+  <name>terabot_kinematics_plugin</name>
+  <version>0.3.0</version>
+  <description>
+     KDL Plugin adapted for the Terabot 5DOF arm
+  </description>
+  <author email="rguzman@robotnik.es">Roberto Guzmán</author>
+  <maintainer email="rguzman@robotnik.es">Roberto Guzmán</maintainer>
+  <maintainer email="rnavarro@robotnik.es">Román Navarro</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://moveit.ros.org/</url>
+
+  <run_depend>moveit_ros_move_group</run_depend>
+  <run_depend>xacro</run_depend>
+  <build_depend>terabot_description</build_depend>
+  <build_depend>moveit_core</build_depend>
+  <run_depend>terabot_description</run_depend>
+  <run_depend>moveit_core</run_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+    <moveit_core plugin="${prefix}/terabot_kinematics_plugin.xml"/>
+  </export>
+
+  
+</package>

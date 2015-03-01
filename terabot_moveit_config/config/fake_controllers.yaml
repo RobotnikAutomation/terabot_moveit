@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - terabot_1_joint
+      - terabot_2_joint
+      - terabot_5_joint
+      - terabot_8_joint
+      - terabot_9_joint
+  - name: fake_gripper_controller
+    joints:
+      - terabot_91_joint
+      - terabot_92_joint

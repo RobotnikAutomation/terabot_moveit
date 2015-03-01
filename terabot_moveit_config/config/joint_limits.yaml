@@ -1,0 +1,36 @@
+joint_limits:
+  terabot_2_joint:
+    has_velocity_limits: true
+    max_velocity: 0.61
+    has_acceleration_limits: true
+    max_acceleration: 0.2
+  terabot_5_joint:
+    has_velocity_limits: true
+    max_velocity: 0.61
+    has_acceleration_limits: true
+    max_acceleration: 0.2
+  terabot_9_joint:
+    has_velocity_limits: true
+    max_velocity: 0.61
+    has_acceleration_limits: true
+    max_acceleration: 0.2
+  terabot_91_joint:
+    has_velocity_limits: true
+    max_velocity: 0.61
+    has_acceleration_limits: true
+    max_acceleration: 0.2
+  terabot_8_joint:
+    has_velocity_limits: true
+    max_velocity: 0.61
+    has_acceleration_limits: true
+    max_acceleration: 0.2
+  terabot_92_joint:
+    has_velocity_limits: true
+    max_velocity: 0.61
+    has_acceleration_limits: true
+    max_acceleration: 0.2
+  terabot_1_joint:
+    has_velocity_limits: true
+    max_velocity: 0.61
+    has_acceleration_limits: true
+    max_acceleration: 0.2
