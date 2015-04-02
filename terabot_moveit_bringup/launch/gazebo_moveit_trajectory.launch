@@ -6,14 +6,17 @@
   <arg name="run_robot_state_publisher" value="false"/>
   
   <!-- terabot gazebo -->
-  <!--include file="$(find terabot_gazebo)/launch/terabot.launch" /-->
+  <include file="$(find terabot_gazebo)/launch/terabot.launch" />
   <!-- robotnik trajectory control -->
-  <!--include file="$(find terabot_moveit_bringup)/launch/robotnik_traj_control/gazebo_trajectory_control.launch" /-->
+  <include file="$(find terabot_moveit_bringup)/launch/robotnik_traj_control/gazebo_trajectory_control.launch" />
   <!-- Moveit config -->
   <include file="$(find terabot_moveit_config)/launch/demo_rtc.launch">
 	  <arg name="simulation" value="$(arg simulation)"/>
           <arg name="run_robot_state_publisher" value="$(arg run_robot_state_publisher)"/>
   </include>
+
+   <!-- robotnik trajectory planner -->
+  <include file="$(find terabot_moveit_bringup)/launch/robotnik_traj_planner/planner.launch" />
 
 </launch>
 
